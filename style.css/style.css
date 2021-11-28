@@ -97,34 +97,37 @@ margin-left: 1262px;
 background: #BFDEFB;
 }
 .section-text2{
-    max-width: 1400px; 
-   margin: 0 auto;
+max-width: 1400px; 
+margin: 0 auto;
 }
 .text2{
     position: relative;
 }
 .text2{
-    font-size: 36px;
-line-height: 42px;
+    font-size:36px;
+line-height:42px;
 text-align: center;
 color: #000000;
 padding: 0px 364px 123px 380px;
 }
-.text2 ::before{
-content: "";
+.text2::before{
+content:"";
 position: absolute;
 width: 58px;
 height: 58px;
 border-radius: 50px;
 background:#5C98AB;
+margin-left: -30px;
+margin-top: -56px;
 }
-.text2 ::after{
-    content: "";
+.text2::after{
+    content:"";
     position: absolute;
     width: 120px;
     height: 120px;
     border-radius: 100px;
     background: #BFDEFB;
+    margin-left: 42px;
 }
 .container_section_form{
 width: 647px;
